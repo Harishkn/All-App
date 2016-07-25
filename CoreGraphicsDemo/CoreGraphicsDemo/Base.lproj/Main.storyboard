@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="BIDQuartzFunView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QEZ-x1-6M6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76D-7o-j3l">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                            </navigationBar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="b16-f4-PJS">
+                                <rect key="frame" x="20" y="564" width="560" height="29"/>
+                                <segments>
+                                    <segment title="Line"/>
+                                    <segment title="Rect"/>
+                                    <segment title="Eclipse"/>
+                                    <segment title="Image"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeShape:" destination="8bC-Xf-vdC" eventType="valueChanged" id="IlL-KP-gLp"/>
+                                    <action selector="changeShape:" destination="BYZ-38-t0r" eventType="valueChanged" id="y7H-pN-Yht"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="YKQ-5n-fVS">
+                                <rect key="frame" x="20" y="8" width="560" height="29"/>
+                                <segments>
+                                    <segment title="Red"/>
+                                    <segment title="Blue"/>
+                                    <segment title="Yellow"/>
+                                    <segment title="Green"/>
+                                    <segment title="Random"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeColor:" destination="8bC-Xf-vdC" eventType="valueChanged" id="1Hq-4r-nQR"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QEZ-x1-6M6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="0zh-D7-cKQ"/>
+                            <constraint firstItem="b16-f4-PJS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="6Wr-qj-A2V"/>
+                            <constraint firstItem="76D-7o-j3l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="8Ll-0X-yIO"/>
+                            <constraint firstItem="b16-f4-PJS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KZ0-Lh-yw9"/>
+                            <constraint firstItem="YKQ-5n-fVS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="8" id="Vpo-1W-wRK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="b16-f4-PJS" secondAttribute="bottom" constant="8" id="VxD-WQ-zgd"/>
+                            <constraint firstItem="YKQ-5n-fVS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="adC-wd-NVn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QEZ-x1-6M6" secondAttribute="trailing" constant="-20" id="f7k-fq-IRf"/>
+                            <constraint firstItem="YKQ-5n-fVS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="iq2-55-JLZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="76D-7o-j3l" secondAttribute="bottom" id="kml-mA-Mug"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="76D-7o-j3l" secondAttribute="trailing" constant="-20" id="u4p-Pf-3D7"/>
+                            <constraint firstItem="QEZ-x1-6M6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="u6z-rc-H4V"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="changeColor" destination="YKQ-5n-fVS" id="U0n-gM-0dM"/>
+                            <outlet property="changeShape" destination="b16-f4-PJS" id="bMS-jg-VGu"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="305"/>
+        </scene>
+    </scenes>
+</document>

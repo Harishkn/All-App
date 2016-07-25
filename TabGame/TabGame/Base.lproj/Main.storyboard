@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIU-DP-jzX">
+                                <rect key="frame" x="20" y="340" width="560" height="54"/>
+                                <color key="backgroundColor" red="1" green="0.97473765622200736" blue="0.90215721360973689" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="9eg-Ye-o7J"/>
+                                    <constraint firstAttribute="height" constant="54" id="Koc-e3-Ec4"/>
+                                </constraints>
+                                <attributedString key="attributedText"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9eg-Ye-o7J"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaY-3R-cgB">
+                                <rect key="frame" x="220" y="420" width="160" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Qi8-8q-d9q"/>
+                                </constraints>
+                                <state key="normal" title="Submit " image="button"/>
+                                <connections>
+                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3pD-h6-w2M"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the tab" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SLv-ps-2os">
+                                <rect key="frame" x="20" y="258" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="q2K-es-WQh"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8A-XZ-VZy">
+                                <rect key="frame" x="200" y="153" width="201" height="23"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="CVG-28-JGf"/>
+                                    <constraint firstAttribute="height" constant="23" id="Y2I-kO-J1b"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Welcome To Tap Game">
+                                        <attributes>
+                                            <color key="NSColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="19" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WaY-3R-cgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="066-qX-KyZ"/>
+                            <constraint firstItem="m8A-XZ-VZy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="133" id="3Lv-70-MLA"/>
+                            <constraint firstItem="m8A-XZ-VZy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7fc-g1-e0x"/>
+                            <constraint firstItem="SLv-ps-2os" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ibj-fO-Vud"/>
+                            <constraint firstItem="EIU-DP-jzX" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KHf-eC-KLM"/>
+                            <constraint firstItem="SLv-ps-2os" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KoA-ZV-RGF"/>
+                            <constraint firstItem="SLv-ps-2os" firstAttribute="top" secondItem="m8A-XZ-VZy" secondAttribute="bottom" constant="82" id="Ppw-MU-qoJ"/>
+                            <constraint firstItem="EIU-DP-jzX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UOZ-90-8yc"/>
+                            <constraint firstItem="EIU-DP-jzX" firstAttribute="top" secondItem="SLv-ps-2os" secondAttribute="bottom" constant="52" id="cMD-IB-ABE"/>
+                            <constraint firstItem="WaY-3R-cgB" firstAttribute="top" secondItem="EIU-DP-jzX" secondAttribute="bottom" constant="26" id="zxy-9i-1HK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelView" destination="EIU-DP-jzX" id="I6X-AT-vgA"/>
+                        <outlet property="textView" destination="SLv-ps-2os" id="s6q-pN-hFs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="306"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button" width="150" height="150"/>
+    </resources>
+</document>

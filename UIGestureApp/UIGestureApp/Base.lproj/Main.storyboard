@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <swipeGestureRecognizer direction="right" id="3Me-q7-B1W">
+                    <connections>
+                        <action selector="swipeRight:" destination="BYZ-38-t0r" id="fBr-fU-sef"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="EAi-fl-9oy">
+                    <connections>
+                        <action selector="singleTap:" destination="BYZ-38-t0r" id="Iyl-Gc-Ckd"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="0Dc-4h-P2J">
+                    <connections>
+                        <action selector="swipeLeft:" destination="BYZ-38-t0r" id="bLl-xm-8N5"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="Omi-Jc-lUV">
+                    <connections>
+                        <action selector="doubleTap:" destination="BYZ-38-t0r" id="NYx-Oo-Cto"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAg-zh-iS0">
+                                <rect key="frame" x="250" y="48" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Lzs-J1-jvK"/>
+                                    <constraint firstAttribute="height" constant="100" id="yaS-kW-Hwg"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Omi-Jc-lUV" appends="YES" id="yA8-WG-ct8"/>
+                                    <outletCollection property="gestureRecognizers" destination="3Me-q7-B1W" appends="YES" id="Zhv-1t-b2d"/>
+                                    <outletCollection property="gestureRecognizers" destination="0Dc-4h-P2J" appends="YES" id="RKb-OJ-QNT"/>
+                                    <outletCollection property="gestureRecognizers" destination="9ez-cJ-oY2" appends="YES" id="jbJ-yo-vUl"/>
+                                    <outletCollection property="gestureRecognizers" destination="XlJ-5R-P4Z" appends="YES" id="ESn-26-O3t"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="sAg-zh-iS0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="Ajm-oe-gbS"/>
+                            <constraint firstItem="sAg-zh-iS0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VYc-G4-zIZ"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="EAi-fl-9oy" appends="YES" id="47r-5e-fBK"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="tapView" destination="sAg-zh-iS0" id="buJ-Mr-HGF"/>
+                    </connections>
+                </viewController>
+                <swipeGestureRecognizer direction="down" id="9ez-cJ-oY2">
+                    <connections>
+                        <action selector="swipeDown:" destination="BYZ-38-t0r" id="V5Z-Tp-0ai"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="XlJ-5R-P4Z">
+                    <connections>
+                        <action selector="swipeUp:" destination="BYZ-38-t0r" id="cK7-J9-hbn"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="260" y="304"/>
+        </scene>
+    </scenes>
+</document>

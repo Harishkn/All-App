@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522F0B871CC619D10079ECD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F0B861CC619D10079ECD2 /* main.m */; };
+		522F0B8A1CC619D10079ECD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F0B891CC619D10079ECD2 /* AppDelegate.m */; };
+		522F0B8D1CC619D10079ECD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F0B8C1CC619D10079ECD2 /* ViewController.m */; };
+		522F0B901CC619D10079ECD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522F0B8E1CC619D10079ECD2 /* Main.storyboard */; };
+		522F0B921CC619D10079ECD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522F0B911CC619D10079ECD2 /* Assets.xcassets */; };
+		522F0B951CC619D10079ECD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522F0B931CC619D10079ECD2 /* LaunchScreen.storyboard */; };
+		522F0BA01CC619D10079ECD2 /* TimingTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F0B9F1CC619D10079ECD2 /* TimingTabBarTests.m */; };
+		522F0BAB1CC619D20079ECD2 /* TimingTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F0BAA1CC619D20079ECD2 /* TimingTabBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		522F0B9C1CC619D10079ECD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522F0B7A1CC619D10079ECD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522F0B811CC619D10079ECD2;
+			remoteInfo = TimingTabBar;
+		};
+		522F0BA71CC619D20079ECD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522F0B7A1CC619D10079ECD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522F0B811CC619D10079ECD2;
+			remoteInfo = TimingTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		522F0B821CC619D10079ECD2 /* TimingTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimingTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F0B861CC619D10079ECD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		522F0B881CC619D10079ECD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		522F0B891CC619D10079ECD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		522F0B8B1CC619D10079ECD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		522F0B8C1CC619D10079ECD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		522F0B8F1CC619D10079ECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		522F0B911CC619D10079ECD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		522F0B941CC619D10079ECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		522F0B961CC619D10079ECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F0B9B1CC619D10079ECD2 /* TimingTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimingTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F0B9F1CC619D10079ECD2 /* TimingTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingTabBarTests.m; sourceTree = "<group>"; };
+		522F0BA11CC619D10079ECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F0BA61CC619D20079ECD2 /* TimingTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimingTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F0BAA1CC619D20079ECD2 /* TimingTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingTabBarUITests.m; sourceTree = "<group>"; };
+		522F0BAC1CC619D20079ECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522F0B7F1CC619D10079ECD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F0B981CC619D10079ECD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F0BA31CC619D20079ECD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522F0B791CC619D10079ECD2 = {
+			isa = PBXGroup;
+			children = (
+				522F0B841CC619D10079ECD2 /* TimingTabBar */,
+				522F0B9E1CC619D10079ECD2 /* TimingTabBarTests */,
+				522F0BA91CC619D20079ECD2 /* TimingTabBarUITests */,
+				522F0B831CC619D10079ECD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522F0B831CC619D10079ECD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522F0B821CC619D10079ECD2 /* TimingTabBar.app */,
+				522F0B9B1CC619D10079ECD2 /* TimingTabBarTests.xctest */,
+				522F0BA61CC619D20079ECD2 /* TimingTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522F0B841CC619D10079ECD2 /* TimingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				522F0B881CC619D10079ECD2 /* AppDelegate.h */,
+				522F0B891CC619D10079ECD2 /* AppDelegate.m */,
+				522F0B8B1CC619D10079ECD2 /* ViewController.h */,
+				522F0B8C1CC619D10079ECD2 /* ViewController.m */,
+				522F0B8E1CC619D10079ECD2 /* Main.storyboard */,
+				522F0B911CC619D10079ECD2 /* Assets.xcassets */,
+				522F0B931CC619D10079ECD2 /* LaunchScreen.storyboard */,
+				522F0B961CC619D10079ECD2 /* Info.plist */,
+				522F0B851CC619D10079ECD2 /* Supporting Files */,
+			);
+			path = TimingTabBar;
+			sourceTree = "<group>";
+		};
+		522F0B851CC619D10079ECD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				522F0B861CC619D10079ECD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		522F0B9E1CC619D10079ECD2 /* TimingTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				522F0B9F1CC619D10079ECD2 /* TimingTabBarTests.m */,
+				522F0BA11CC619D10079ECD2 /* Info.plist */,
+			);
+			path = TimingTabBarTests;
+			sourceTree = "<group>";
+		};
+		522F0BA91CC619D20079ECD2 /* TimingTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				522F0BAA1CC619D20079ECD2 /* TimingTabBarUITests.m */,
+				522F0BAC1CC619D20079ECD2 /* Info.plist */,
+			);
+			path = TimingTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522F0B811CC619D10079ECD2 /* TimingTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F0BAF1CC619D20079ECD2 /* Build configuration list for PBXNativeTarget "TimingTabBar" */;
+			buildPhases = (
+				522F0B7E1CC619D10079ECD2 /* Sources */,
+				522F0B7F1CC619D10079ECD2 /* Frameworks */,
+				522F0B801CC619D10079ECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimingTabBar;
+			productName = TimingTabBar;
+			productReference = 522F0B821CC619D10079ECD2 /* TimingTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		522F0B9A1CC619D10079ECD2 /* TimingTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F0BB21CC619D20079ECD2 /* Build configuration list for PBXNativeTarget "TimingTabBarTests" */;
+			buildPhases = (
+				522F0B971CC619D10079ECD2 /* Sources */,
+				522F0B981CC619D10079ECD2 /* Frameworks */,
+				522F0B991CC619D10079ECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522F0B9D1CC619D10079ECD2 /* PBXTargetDependency */,
+			);
+			name = TimingTabBarTests;
+			productName = TimingTabBarTests;
+			productReference = 522F0B9B1CC619D10079ECD2 /* TimingTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		522F0BA51CC619D20079ECD2 /* TimingTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F0BB51CC619D20079ECD2 /* Build configuration list for PBXNativeTarget "TimingTabBarUITests" */;
+			buildPhases = (
+				522F0BA21CC619D20079ECD2 /* Sources */,
+				522F0BA31CC619D20079ECD2 /* Frameworks */,
+				522F0BA41CC619D20079ECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522F0BA81CC619D20079ECD2 /* PBXTargetDependency */,
+			);
+			name = TimingTabBarUITests;
+			productName = TimingTabBarUITests;
+			productReference = 522F0BA61CC619D20079ECD2 /* TimingTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522F0B7A1CC619D10079ECD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					522F0B811CC619D10079ECD2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					522F0B9A1CC619D10079ECD2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 522F0B811CC619D10079ECD2;
+					};
+					522F0BA51CC619D20079ECD2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 522F0B811CC619D10079ECD2;
+					};
+				};
+			};
+			buildConfigurationList = 522F0B7D1CC619D10079ECD2 /* Build configuration list for PBXProject "TimingTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 522F0B791CC619D10079ECD2;
+			productRefGroup = 522F0B831CC619D10079ECD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522F0B811CC619D10079ECD2 /* TimingTabBar */,
+				522F0B9A1CC619D10079ECD2 /* TimingTabBarTests */,
+				522F0BA51CC619D20079ECD2 /* TimingTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522F0B801CC619D10079ECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F0B951CC619D10079ECD2 /* LaunchScreen.storyboard in Resources */,
+				522F0B921CC619D10079ECD2 /* Assets.xcassets in Resources */,
+				522F0B901CC619D10079ECD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F0B991CC619D10079ECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F0BA41CC619D20079ECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522F0B7E1CC619D10079ECD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F0B8D1CC619D10079ECD2 /* ViewController.m in Sources */,
+				522F0B8A1CC619D10079ECD2 /* AppDelegate.m in Sources */,
+				522F0B871CC619D10079ECD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F0B971CC619D10079ECD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F0BA01CC619D10079ECD2 /* TimingTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F0BA21CC619D20079ECD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F0BAB1CC619D20079ECD2 /* TimingTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		522F0B9D1CC619D10079ECD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522F0B811CC619D10079ECD2 /* TimingTabBar */;
+			targetProxy = 522F0B9C1CC619D10079ECD2 /* PBXContainerItemProxy */;
+		};
+		522F0BA81CC619D20079ECD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522F0B811CC619D10079ECD2 /* TimingTabBar */;
+			targetProxy = 522F0BA71CC619D20079ECD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		522F0B8E1CC619D10079ECD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522F0B8F1CC619D10079ECD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		522F0B931CC619D10079ECD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522F0B941CC619D10079ECD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522F0BAD1CC619D20079ECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		522F0BAE1CC619D20079ECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522F0BB01CC619D20079ECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimingTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.TimingTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		522F0BB11CC619D20079ECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimingTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.TimingTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		522F0BB31CC619D20079ECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimingTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.TimingTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimingTabBar.app/TimingTabBar";
+			};
+			name = Debug;
+		};
+		522F0BB41CC619D20079ECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimingTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.TimingTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimingTabBar.app/TimingTabBar";
+			};
+			name = Release;
+		};
+		522F0BB61CC619D20079ECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimingTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.TimingTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimingTabBar;
+			};
+			name = Debug;
+		};
+		522F0BB71CC619D20079ECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimingTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.TimingTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimingTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522F0B7D1CC619D10079ECD2 /* Build configuration list for PBXProject "TimingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F0BAD1CC619D20079ECD2 /* Debug */,
+				522F0BAE1CC619D20079ECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F0BAF1CC619D20079ECD2 /* Build configuration list for PBXNativeTarget "TimingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F0BB01CC619D20079ECD2 /* Debug */,
+				522F0BB11CC619D20079ECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		522F0BB21CC619D20079ECD2 /* Build configuration list for PBXNativeTarget "TimingTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F0BB31CC619D20079ECD2 /* Debug */,
+				522F0BB41CC619D20079ECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		522F0BB51CC619D20079ECD2 /* Build configuration list for PBXNativeTarget "TimingTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F0BB61CC619D20079ECD2 /* Debug */,
+				522F0BB71CC619D20079ECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522F0B7A1CC619D10079ECD2 /* Project object */;
+}

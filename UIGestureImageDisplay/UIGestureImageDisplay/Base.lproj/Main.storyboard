@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NW1-nY-wLZ">
+                                <rect key="frame" x="180" y="73" width="240" height="155"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="Ppn-9N-hc5"/>
+                                    <constraint firstAttribute="width" constant="240" id="U6o-Rb-9Yl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlr-MC-GA2">
+                                <rect key="frame" x="20" y="304" width="560" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="7bg-og-yfB"/>
+                                    <constraint firstAttribute="height" constant="52" id="ygv-Z6-Asf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="xlr-MC-GA2" secondAttribute="leading" id="2nB-Sm-5WN"/>
+                            <constraint firstItem="NW1-nY-wLZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="cXT-CE-uSK"/>
+                            <constraint firstItem="xlr-MC-GA2" firstAttribute="top" secondItem="NW1-nY-wLZ" secondAttribute="bottom" constant="76" id="kzG-AF-S7D"/>
+                            <constraint firstItem="NW1-nY-wLZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rZh-FO-xGO"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Nqa-vi-BNI" appends="YES" id="aUF-IL-LyB"/>
+                            <outletCollection property="gestureRecognizers" destination="cBc-NM-tm9" appends="YES" id="j2J-mD-G1b"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="displayImage" destination="NW1-nY-wLZ" id="5iJ-PF-lz3"/>
+                        <outlet property="displayLabel" destination="xlr-MC-GA2" id="INm-qk-MOr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Nqa-vi-BNI">
+                    <connections>
+                        <action selector="swipeRight:" destination="BYZ-38-t0r" id="ajx-Vl-gUo"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="cBc-NM-tm9">
+                    <connections>
+                        <action selector="swipeLeft:" destination="BYZ-38-t0r" id="U8w-5o-EtX"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="252" y="296"/>
+        </scene>
+    </scenes>
+</document>

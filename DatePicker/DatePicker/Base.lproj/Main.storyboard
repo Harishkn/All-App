@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvy-JP-S6x">
+                                <rect key="frame" x="20" y="69" width="560" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Nlq-hl-8C1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfh-7Z-dud">
+                                <rect key="frame" x="20" y="217" width="146" height="30"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="kwf-6x-VkL"/>
+                                </constraints>
+                                <state key="normal" title="GetDate"/>
+                                <connections>
+                                    <action selector="getDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pbS-hD-ofa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nK4-wF-jah">
+                                <rect key="frame" x="422" y="217" width="158" height="32"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="CM4-d9-7Cc"/>
+                                    <constraint firstAttribute="height" constant="32" id="yVG-pR-ftz"/>
+                                </constraints>
+                                <state key="normal" title="Get Time"/>
+                                <connections>
+                                    <action selector="detTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaa-WD-cqE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the Date and Time To Dsplay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pY-xr-9Ke">
+                                <rect key="frame" x="20" y="308" width="560" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="EHr-8D-LFI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="fSf-LT-Hdm">
+                                <rect key="frame" x="-7" y="376" width="600" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="482044259.271321">
+                                    <!--2016-04-11 05:10:59 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2pY-xr-9Ke" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3Iy-L7-obG"/>
+                            <constraint firstItem="Gvy-JP-S6x" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BYT-DB-wRt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fSf-LT-Hdm" secondAttribute="trailing" constant="-13" id="CJP-wX-178"/>
+                            <constraint firstItem="fSf-LT-Hdm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-27" id="H6i-Gk-7YK"/>
+                            <constraint firstItem="Gvy-JP-S6x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PiZ-o6-9Pd"/>
+                            <constraint firstItem="yfh-7Z-dud" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="W2J-KK-zR9"/>
+                            <constraint firstItem="yfh-7Z-dud" firstAttribute="top" secondItem="Gvy-JP-S6x" secondAttribute="bottom" constant="107" id="avX-R7-jH8"/>
+                            <constraint firstItem="2pY-xr-9Ke" firstAttribute="top" secondItem="nK4-wF-jah" secondAttribute="bottom" constant="59" id="d9c-cG-pEK"/>
+                            <constraint firstItem="Gvy-JP-S6x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49" id="dUT-Oj-dcX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fSf-LT-Hdm" secondAttribute="bottom" constant="8" id="fWd-6C-csM"/>
+                            <constraint firstItem="nK4-wF-jah" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mb9-2X-kbJ"/>
+                            <constraint firstItem="2pY-xr-9Ke" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wOM-zv-zUt"/>
+                            <constraint firstItem="nK4-wF-jah" firstAttribute="top" secondItem="Gvy-JP-S6x" secondAttribute="bottom" constant="107" id="yfX-VC-R3V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="fSf-LT-Hdm" id="yk6-ik-5PB"/>
+                        <outlet property="showDate" destination="Gvy-JP-S6x" id="p0z-97-iFH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="304"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="8kV-oO-6qy">
+                                <rect key="frame" x="178" y="112" width="245" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="ost-f1-o5s"/>
+                                    <constraint firstAttribute="width" constant="245" id="r9I-Gd-4hb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Coin Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bp3-sO-u2S">
+                                <rect key="frame" x="20" y="56" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nn-aE-d93">
+                                <rect key="frame" x="243" y="439" width="114" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="dZT-9k-HAm"/>
+                                </constraints>
+                                <state key="normal" title="Check !!"/>
+                                <connections>
+                                    <action selector="checkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I8j-tm-Xf2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wait" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olJ-V6-nnK">
+                                <rect key="frame" x="20" y="368" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter head or tail to win the game??" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sy0-JN-oF5">
+                                <rect key="frame" x="20" y="304" width="280" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="hjy-uL-8dP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Yle-Z1-i8d"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="olJ-V6-nnK" firstAttribute="top" secondItem="Sy0-JN-oF5" secondAttribute="bottom" constant="34" id="2s6-VV-gKz"/>
+                            <constraint firstItem="Bp3-sO-u2S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="4Lz-ju-h8B"/>
+                            <constraint firstItem="8kV-oO-6qy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6VM-wU-oyy"/>
+                            <constraint firstItem="8kV-oO-6qy" firstAttribute="top" secondItem="Bp3-sO-u2S" secondAttribute="bottom" constant="35" id="9Hv-hx-Sbh"/>
+                            <constraint firstItem="Sy0-JN-oF5" firstAttribute="top" secondItem="8kV-oO-6qy" secondAttribute="bottom" constant="32" id="BPU-9h-OnI"/>
+                            <constraint firstItem="Sy0-JN-oF5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BZh-XA-wI7"/>
+                            <constraint firstItem="olJ-V6-nnK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Bfy-TB-1vz"/>
+                            <constraint firstItem="6nn-aE-d93" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N2m-xY-iYh"/>
+                            <constraint firstItem="Bp3-sO-u2S" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="SbH-ot-fbI"/>
+                            <constraint firstItem="Bp3-sO-u2S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="U3c-Gt-Iqs"/>
+                            <constraint firstItem="olJ-V6-nnK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ozV-mX-isG"/>
+                            <constraint firstItem="6nn-aE-d93" firstAttribute="top" secondItem="olJ-V6-nnK" secondAttribute="bottom" constant="50" id="rdj-mo-hy0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="diaplayText" destination="Sy0-JN-oF5" id="v7g-W5-FFu"/>
+                        <outlet property="displayLabel" destination="olJ-V6-nnK" id="277-2G-gax"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="306"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coin" width="381" height="400"/>
+    </resources>
+</document>

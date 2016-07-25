@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B198171CF47EA60088FF63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B198161CF47EA60088FF63 /* main.m */; };
+		52B1981A1CF47EA60088FF63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B198191CF47EA60088FF63 /* AppDelegate.m */; };
+		52B1981D1CF47EA60088FF63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B1981C1CF47EA60088FF63 /* ViewController.m */; };
+		52B198201CF47EA60088FF63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B1981E1CF47EA60088FF63 /* Main.storyboard */; };
+		52B198221CF47EA60088FF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B198211CF47EA60088FF63 /* Assets.xcassets */; };
+		52B198251CF47EA60088FF63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B198231CF47EA60088FF63 /* LaunchScreen.storyboard */; };
+		52B198301CF47EA70088FF63 /* FindingAgeDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B1982F1CF47EA70088FF63 /* FindingAgeDatePickerTests.m */; };
+		52B1983B1CF47EA80088FF63 /* FindingAgeDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B1983A1CF47EA80088FF63 /* FindingAgeDatePickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B1982C1CF47EA60088FF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B1980A1CF47EA60088FF63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B198111CF47EA60088FF63;
+			remoteInfo = FindingAgeDatePicker;
+		};
+		52B198371CF47EA70088FF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B1980A1CF47EA60088FF63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B198111CF47EA60088FF63;
+			remoteInfo = FindingAgeDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52B198121CF47EA60088FF63 /* FindingAgeDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindingAgeDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B198161CF47EA60088FF63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52B198181CF47EA60088FF63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52B198191CF47EA60088FF63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52B1981B1CF47EA60088FF63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52B1981C1CF47EA60088FF63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52B1981F1CF47EA60088FF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B198211CF47EA60088FF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B198241CF47EA60088FF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B198261CF47EA60088FF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B1982B1CF47EA60088FF63 /* FindingAgeDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindingAgeDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B1982F1CF47EA70088FF63 /* FindingAgeDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindingAgeDatePickerTests.m; sourceTree = "<group>"; };
+		52B198311CF47EA70088FF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B198361CF47EA70088FF63 /* FindingAgeDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindingAgeDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B1983A1CF47EA80088FF63 /* FindingAgeDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindingAgeDatePickerUITests.m; sourceTree = "<group>"; };
+		52B1983C1CF47EA80088FF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B1980F1CF47EA60088FF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B198281CF47EA60088FF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B198331CF47EA70088FF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B198091CF47EA60088FF63 = {
+			isa = PBXGroup;
+			children = (
+				52B198141CF47EA60088FF63 /* FindingAgeDatePicker */,
+				52B1982E1CF47EA60088FF63 /* FindingAgeDatePickerTests */,
+				52B198391CF47EA70088FF63 /* FindingAgeDatePickerUITests */,
+				52B198131CF47EA60088FF63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52B198131CF47EA60088FF63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B198121CF47EA60088FF63 /* FindingAgeDatePicker.app */,
+				52B1982B1CF47EA60088FF63 /* FindingAgeDatePickerTests.xctest */,
+				52B198361CF47EA70088FF63 /* FindingAgeDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B198141CF47EA60088FF63 /* FindingAgeDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				52B198181CF47EA60088FF63 /* AppDelegate.h */,
+				52B198191CF47EA60088FF63 /* AppDelegate.m */,
+				52B1981B1CF47EA60088FF63 /* ViewController.h */,
+				52B1981C1CF47EA60088FF63 /* ViewController.m */,
+				52B1981E1CF47EA60088FF63 /* Main.storyboard */,
+				52B198211CF47EA60088FF63 /* Assets.xcassets */,
+				52B198231CF47EA60088FF63 /* LaunchScreen.storyboard */,
+				52B198261CF47EA60088FF63 /* Info.plist */,
+				52B198151CF47EA60088FF63 /* Supporting Files */,
+			);
+			path = FindingAgeDatePicker;
+			sourceTree = "<group>";
+		};
+		52B198151CF47EA60088FF63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B198161CF47EA60088FF63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52B1982E1CF47EA60088FF63 /* FindingAgeDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				52B1982F1CF47EA70088FF63 /* FindingAgeDatePickerTests.m */,
+				52B198311CF47EA70088FF63 /* Info.plist */,
+			);
+			path = FindingAgeDatePickerTests;
+			sourceTree = "<group>";
+		};
+		52B198391CF47EA70088FF63 /* FindingAgeDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52B1983A1CF47EA80088FF63 /* FindingAgeDatePickerUITests.m */,
+				52B1983C1CF47EA80088FF63 /* Info.plist */,
+			);
+			path = FindingAgeDatePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B198111CF47EA60088FF63 /* FindingAgeDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B1983F1CF47EA80088FF63 /* Build configuration list for PBXNativeTarget "FindingAgeDatePicker" */;
+			buildPhases = (
+				52B1980E1CF47EA60088FF63 /* Sources */,
+				52B1980F1CF47EA60088FF63 /* Frameworks */,
+				52B198101CF47EA60088FF63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindingAgeDatePicker;
+			productName = FindingAgeDatePicker;
+			productReference = 52B198121CF47EA60088FF63 /* FindingAgeDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52B1982A1CF47EA60088FF63 /* FindingAgeDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B198421CF47EA80088FF63 /* Build configuration list for PBXNativeTarget "FindingAgeDatePickerTests" */;
+			buildPhases = (
+				52B198271CF47EA60088FF63 /* Sources */,
+				52B198281CF47EA60088FF63 /* Frameworks */,
+				52B198291CF47EA60088FF63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B1982D1CF47EA60088FF63 /* PBXTargetDependency */,
+			);
+			name = FindingAgeDatePickerTests;
+			productName = FindingAgeDatePickerTests;
+			productReference = 52B1982B1CF47EA60088FF63 /* FindingAgeDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52B198351CF47EA70088FF63 /* FindingAgeDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B198451CF47EA80088FF63 /* Build configuration list for PBXNativeTarget "FindingAgeDatePickerUITests" */;
+			buildPhases = (
+				52B198321CF47EA70088FF63 /* Sources */,
+				52B198331CF47EA70088FF63 /* Frameworks */,
+				52B198341CF47EA70088FF63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B198381CF47EA70088FF63 /* PBXTargetDependency */,
+			);
+			name = FindingAgeDatePickerUITests;
+			productName = FindingAgeDatePickerUITests;
+			productReference = 52B198361CF47EA70088FF63 /* FindingAgeDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B1980A1CF47EA60088FF63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					52B198111CF47EA60088FF63 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					52B1982A1CF47EA60088FF63 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52B198111CF47EA60088FF63;
+					};
+					52B198351CF47EA70088FF63 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52B198111CF47EA60088FF63;
+					};
+				};
+			};
+			buildConfigurationList = 52B1980D1CF47EA60088FF63 /* Build configuration list for PBXProject "FindingAgeDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B198091CF47EA60088FF63;
+			productRefGroup = 52B198131CF47EA60088FF63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B198111CF47EA60088FF63 /* FindingAgeDatePicker */,
+				52B1982A1CF47EA60088FF63 /* FindingAgeDatePickerTests */,
+				52B198351CF47EA70088FF63 /* FindingAgeDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B198101CF47EA60088FF63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B198251CF47EA60088FF63 /* LaunchScreen.storyboard in Resources */,
+				52B198221CF47EA60088FF63 /* Assets.xcassets in Resources */,
+				52B198201CF47EA60088FF63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B198291CF47EA60088FF63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B198341CF47EA70088FF63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B1980E1CF47EA60088FF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B1981D1CF47EA60088FF63 /* ViewController.m in Sources */,
+				52B1981A1CF47EA60088FF63 /* AppDelegate.m in Sources */,
+				52B198171CF47EA60088FF63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B198271CF47EA60088FF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B198301CF47EA70088FF63 /* FindingAgeDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B198321CF47EA70088FF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B1983B1CF47EA80088FF63 /* FindingAgeDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52B1982D1CF47EA60088FF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B198111CF47EA60088FF63 /* FindingAgeDatePicker */;
+			targetProxy = 52B1982C1CF47EA60088FF63 /* PBXContainerItemProxy */;
+		};
+		52B198381CF47EA70088FF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B198111CF47EA60088FF63 /* FindingAgeDatePicker */;
+			targetProxy = 52B198371CF47EA70088FF63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52B1981E1CF47EA60088FF63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B1981F1CF47EA60088FF63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B198231CF47EA60088FF63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B198241CF47EA60088FF63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B1983D1CF47EA80088FF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52B1983E1CF47EA80088FF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B198401CF47EA80088FF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindingAgeDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.FindingAgeDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52B198411CF47EA80088FF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindingAgeDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.FindingAgeDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52B198431CF47EA80088FF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindingAgeDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.FindingAgeDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindingAgeDatePicker.app/FindingAgeDatePicker";
+			};
+			name = Debug;
+		};
+		52B198441CF47EA80088FF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindingAgeDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.FindingAgeDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindingAgeDatePicker.app/FindingAgeDatePicker";
+			};
+			name = Release;
+		};
+		52B198461CF47EA80088FF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FindingAgeDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.FindingAgeDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FindingAgeDatePicker;
+			};
+			name = Debug;
+		};
+		52B198471CF47EA80088FF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FindingAgeDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = harish.FindingAgeDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FindingAgeDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B1980D1CF47EA60088FF63 /* Build configuration list for PBXProject "FindingAgeDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B1983D1CF47EA80088FF63 /* Debug */,
+				52B1983E1CF47EA80088FF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B1983F1CF47EA80088FF63 /* Build configuration list for PBXNativeTarget "FindingAgeDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B198401CF47EA80088FF63 /* Debug */,
+				52B198411CF47EA80088FF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52B198421CF47EA80088FF63 /* Build configuration list for PBXNativeTarget "FindingAgeDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B198431CF47EA80088FF63 /* Debug */,
+				52B198441CF47EA80088FF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52B198451CF47EA80088FF63 /* Build configuration list for PBXNativeTarget "FindingAgeDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B198461CF47EA80088FF63 /* Debug */,
+				52B198471CF47EA80088FF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B1980A1CF47EA60088FF63 /* Project object */;
+}
